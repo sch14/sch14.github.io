@@ -9,19 +9,25 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </head>
   <body>
-   <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#fdmodal">اینجا کلیک کنید</button>
-   <div class="modal" id="fdmodal">
-    <div class="modal-dialog">
-     <div class="modal-content">
+   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  اینجا کلیک کنید
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title">...به زودی</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title" id="exampleModalLabel">...به زودی</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-       <p>این سایت به‌زودی مورد دسترسی قرار می‌گیرد<br>دبیرستان شهید بهشتی</p>
+        <p>به زودی این سایت در دسترس قرار خواهد گرفت</p>
       </div>
-     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+      </div>
     </div>
-   </div>
+  </div>
+</div>
   </body>
  </html>
